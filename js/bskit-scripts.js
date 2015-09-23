@@ -23,9 +23,9 @@ $('#copyrightLink').click(function () {
 /* Correctly tag the phones in Contact area */
 window.onload = function () {
 if (!jQuery.browser.mobile) {
-    jQuery('body').on('click', 'a[href^="tel:"]', function() {
+    jQuery('body').on('click', 'a[href="tel:"]', function() {
             jQuery(this).attr('href', 
-                jQuery(this).attr('href').replace(/^tel:/, 'callto:'));
+                jQuery(this).attr('href').replace('tel:', 'callto:'));
     });
 }
 };
