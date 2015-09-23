@@ -959,6 +959,7 @@ a:hover {
     text-decoration: none !important;
 }
 
+
 /* LISTS */
 
 ol
@@ -1991,9 +1992,8 @@ fieldset[disabled] .form-control
 
 .nudge-down
 {
-    margin-top: 15vh;
+    margin-top: 25vh;
 }
-
 
 .centerme
 {
@@ -2011,10 +2011,5 @@ fieldset[disabled] .form-control
     padding: 10px;
     color: #fff;
     font-size: 12px Arial;
-}
-
-.bigBrand
-{
-    width: 700px;
 }
 
